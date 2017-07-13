@@ -1,7 +1,7 @@
 'use strict';
 
-tinymce.PluginManager.add('custom', function(editor) {
-  editor.addButton('custom', {
+tinymce.PluginManager.add('accordion', function(editor) {
+  editor.addButton('accordion', {
     text: 'Accordion',
     icon: false,
     onclick: function onclick() {
